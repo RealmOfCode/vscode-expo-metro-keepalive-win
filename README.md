@@ -15,10 +15,15 @@ Now you can have a status bar item (button) that starts and stops your Expo proj
 
 ## Prerequisites
 
+### Linux and Mac OS Users
+
+You'll need to install **PowerShell Core** or the extension will fail to execute properly ([See this Microsoft article for more information and download links](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4))
+
+### Expo Account (Optional)
 Since the project will be running in tunnel mode, with the intention of debugging the app in a physical device over mobile network (as opposed to debugging it inside an emulator or inside the same network), the following prerequisites are highly **recommended**:
 - Having an [Expo account.](https://expo.dev/signup).
 - Logging into that account in your PC's terminal, via `npx expo login`. See [here](https://docs.expo.dev/more/expo-cli/#authentication) for more details.
-- [Expo Go](https://expo.dev/go) should already be installed in your physical device. You should also log in to your Expo account there.
+- [Expo Go](https://expo.dev/go) should also be installed in the physical device. You should also log in to your Expo account there.
 
 This setup will ensure that you are able to run the project in your physical device **without** having to scan any QR Codes, and will prevent the resulting failure to connect over mobile network that some scenarios result in.
 
@@ -59,6 +64,10 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt
 ## Release Notes
 
 This is my very first VS Code extension--__feeling proud__🦾🧠 !
+
+### 1.0.3
+
+Updated the **Prerequisites** section of this file to add information about the usage of this extension in `Linux` and `Mac OS` environments.
 
 ### 1.0.2
 
