@@ -50,16 +50,21 @@ This setup will ensure that you are able to run the project in your physical dev
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
-## Release Notes
-
-This is the initial release of this extension, and my very first VS Code extension--__feeling proud__<span class="emoji">🦾🧠</span> !
-
-### 1.0.0
-
-Initial release and house warming party! <span class="emoji">🎉👽🤖🥳</span>
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
 
 ---
 
 # 🍻 Cheers!
+
+## Release Notes
+
+This is the initial release of this extension, and my very first VS Code extension--__feeling proud__🦾🧠 !
+
+### 1.0.1
+
+Fixed a bug where the underlying ps script would fail to start because of a discrepancy between the path to the script in development and the one after published.
+
+### 1.0.0
+
+Initial release and house warming party! 🎉👽🤖🥳
+

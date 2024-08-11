@@ -2,7 +2,7 @@
 	"name": "vscode-expo-metro-keepalive-win",
 	"displayName": "Expo Metro Keep-Alive (Win)",
 	"description": "A Visual Studio Code extension for running Expo projects in tunnel mode, while ensuring that Metro and Expo Go don't auto disconnect from each other when idle for too long.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.92.0"
 	},
