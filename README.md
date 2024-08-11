@@ -1,9 +1,7 @@
-<link rel="stylesheet" type="text/css" href="./dist/assets/md-styles.css">
-
-<section align="center">
-<img src="dist/assets/ExpoMetroKeepAlive_256.png" width="200" alt="Extension logo"/>
-<h1>VSCode Expo Metro Keep-Alive (Win)</h1>
-</section>
+<div align="center">
+<img src="https://res.cloudinary.com/dlr88vvxh/image/upload/v1723341808/vscext/expo-metro-keepalive/ExpoMetroKeepAlive_256_kk4r6j.png" width="200" alt="Extension logo"/>
+<h1>VSCode Expo Metro Keep-Alive</h1>
+</div>
 
 This Visual Studio Code extension is intended for those who, like me,  are annoyed about having to reload their Expo project because Metro keeps disconnecting from Expo Go on their physical device every 5 seconds.
 
@@ -28,10 +26,10 @@ Now you can have a status bar item (button) that starts and stops your Expo proj
 2. Use the `Start Metro (keep alive)` status bar button, or the `Expo tunnel: Start` and `Expo tunnel: Stop` command palette options to start or stop the project.
 
 ### Button's location
-![Button's location screenshot](./dist/assets/readme-start.png)
+![Button's location screenshot](https://res.cloudinary.com/dlr88vvxh/image/upload/v1723341786/vscext/expo-metro-keepalive/readme-start_pd0953.png)
 
 ### Command Palette
-![Command Palette screenshot](./dist/assets/readme-cmd-palt.png)
+![Command Palette screenshot](https://res.cloudinary.com/dlr88vvxh/image/upload/v1723341785/vscext/expo-metro-keepalive/readme-cmd-palt_dqdx1e.png)
 
 
 ## Known Issues and Caveats

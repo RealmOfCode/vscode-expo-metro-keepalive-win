@@ -10,7 +10,7 @@
 		"Other"
 	],
 	"main": "./dist/extension.js",
-	"icon": "dist/assets/ExpoMetroKeepAlive_128.png",
+	"icon": "assets/images/ExpoMetroKeepAlive_128.png",
 	"keywords": [
 		"vscode-extension",
 		"expo",
