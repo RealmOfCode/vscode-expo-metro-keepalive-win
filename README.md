@@ -58,7 +58,11 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt
 
 ## Release Notes
 
-This is the initial release of this extension, and my very first VS Code extension--__feeling proud__🦾🧠 !
+This is my very first VS Code extension--__feeling proud__🦾🧠 !
+
+### 1.0.2
+
+Fixed reference to GitHub repo.
 
 ### 1.0.1
 
