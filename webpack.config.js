@@ -26,8 +26,8 @@ const extensionConfig = {
 		new CopyWebpackPlugin({
 			patterns: [
 				{ from: 'assets/start.ps1', to: 'assets' },
-				// { from: 'assets/images/readme', to: 'assets/images/readme' },
-				{ from: 'assets/images', to: 'assets' }
+				{ from: 'assets/images', to: 'assets' },
+				{ from: 'assets/styles', to: 'assets' },
 			]
 		})
 	],

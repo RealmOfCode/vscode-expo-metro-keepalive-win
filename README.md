@@ -1,4 +1,10 @@
-# VSCode Expo Metro Keep-Alive (Win)
+<link rel="stylesheet" type="text/css" href="./dist/assets/md-styles.css">
+
+<section align="center">
+<img src="dist/assets/ExpoMetroKeepAlive_256.png" width="200" alt="Extension logo"/>
+<h1>VSCode Expo Metro Keep-Alive (Win)</h1>
+</section>
+
 This Visual Studio Code extension is intended for those who, like me,  are annoyed about having to reload their Expo project because Metro keeps disconnecting from Expo Go on their physical device every 5 seconds.
 
 Now you can have a status bar item (button) that starts and stops your Expo project **in tunnel mode**, so that you can continue developing your super React Native project in your physical device, over mobile data, without having Metro disconnect with such frequency.
@@ -21,15 +27,11 @@ Now you can have a status bar item (button) that starts and stops your Expo proj
 1. Open an Expo project in Visual Studio Code.
 2. Use the `Start Metro (keep alive)` status bar button, or the `Expo tunnel: Start` and `Expo tunnel: Stop` command palette options to start or stop the project.
 
-<div align="left">
-<h3 style="font-style: italic;">Button's location</h3>
-<img src="https://res.cloudinary.com/dlr88vvxh/image/upload/v1723341786/vscext/expo-metro-keepalive/readme-start_pd0953.png" height="500" />
-</div>
+### Button's location
+![Button's location screenshot](./dist/assets/readme-start.png)
 
-<div align="left">
-<h3 style="font-style: italic;">Command Palette</h3>
-<img src="https://res.cloudinary.com/dlr88vvxh/image/upload/v1723341785/vscext/expo-metro-keepalive/readme-cmd-palt_dqdx1e.png" width="700">
-</div>
+### Command Palette
+![Command Palette screenshot](./dist/assets/readme-cmd-palt.png)
 
 
 ## Known Issues and Caveats
@@ -45,13 +47,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Release Notes
 
-This is the initial release of this extension, and my very first VS Code extension--feeling proud 🥳!
-> _"Is this how things look inside the temple??..."_ 😮👍😏
+This is the initial release of this extension, and my very first VS Code extension--__feeling proud__<span class="emoji">🦾🧠</span> !
 
 ### 1.0.0
 
-Initial release and house warming party!
+Initial release and house warming party! <span class="emoji">🎉👽🤖🥳</span>
 
 ---
 
-# Cheers!
+# <span class="emoji-l">🍻</span> Cheers!
