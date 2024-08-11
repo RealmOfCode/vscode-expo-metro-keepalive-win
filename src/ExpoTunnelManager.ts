@@ -40,7 +40,7 @@ export default class ExpoTunnelManager extends EventEmitter
 		{
 			await this.openTerminalAsync(); // creates, sets and opens.
 
-			const command = `powershell.exe -ExecutionPolicy Bypass -File "${ Constants.PATH_PS_SCRIPT }" -outputPath "${ Constants.PATH_OUTPUT_LOG }" -Constants.PATH_NPX "${ Constants.PATH_NPX }" -Constants.PATH_KEEP_ALIVE "${ Constants.PATH_KEEP_ALIVE }" -Constants.PATH_PROJECT_USER "${ Constants.PATH_PROJECT_USER }"`;
+			const command = `powershell.exe -ExecutionPolicy Bypass -File "${ Constants.PATH_PS_SCRIPT }" -outputPath "${ Constants.PATH_OUTPUT_LOG }" -npxPath "${ Constants.PATH_NPX }" -keepAlivePath "${ Constants.PATH_KEEP_ALIVE }" -projectPath "${ Constants.PATH_PROJECT_USER }"`;
 
 			this.terminal?.sendText(command);
 

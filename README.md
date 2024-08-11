@@ -13,6 +13,15 @@ Now you can have a status bar item (button) that starts and stops your Expo proj
 - When pressing start, it runs your project in tunnel mode and keeps the Metro server running in the background, even when you haven't performed any action(s) on your project for a while.
 - Automatically stops Metro when it detects a problem while starting up, or a failure in the process.
 
+## Prerequisites
+
+Since the project will be running in tunnel mode, with the intention of debugging the app in a physical device over mobile network (as opposed to debugging it inside an emulator or inside the same network), the following prerequisites are highly **recommended**:
+- Having an [Expo account.](https://expo.dev/signup).
+- Logging into that account in your PC's terminal, via `npx expo login`. See [here](https://docs.expo.dev/more/expo-cli/#authentication) for more details.
+- [Expo Go](https://expo.dev/go) should already be installed in your physical device. You should also log in to your Expo account there.
+
+This setup will ensure that you are able to run the project in your physical device **without** having to scan any QR Codes, and will prevent the resulting failure to connect over mobile network that some scenarios result in.
+
 ## Installation
 
 1. Open Visual Studio Code.
@@ -41,7 +50,7 @@ Now you can have a status bar item (button) that starts and stops your Expo proj
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Release Notes
 
@@ -53,4 +62,4 @@ Initial release and house warming party! <span class="emoji">🎉👽🤖🥳</s
 
 ---
 
-# <span class="emoji-l">🍻</span> Cheers!
+# 🍻 Cheers!
